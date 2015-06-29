@@ -1,0 +1,13 @@
+# remember to restart your server if you are adding/copying a new XX.yml language file
+# this is the canadian translation page
+
+eh:
+  pages:
+    index:
+      title: "Projects and Other Doo-dads"
+      tabtitle1: "Home"
+      tabtitle2: "Projects, eh"
+      tabtitle3: "Services, eh"
+      tabtitle4: "Downloaded Doo-dads"
+      tabtitle5: "Aboot"
+      tabtitle6: "Contact"

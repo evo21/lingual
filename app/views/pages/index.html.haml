@@ -2,7 +2,7 @@
 %link{:href => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css", :rel => "stylesheet"}/
 
 !!!
-%html{:lang => "es"}
+%html{:lang => "en"}
   %head
     %meta{:charset => "utf-8"}
       %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}
@@ -20,13 +20,17 @@
                 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
                 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
   %body
-    .containter
+    .container
       .nav
-        TODO: add language selector here  ->
+        Select Language:
+        = link_to_unless_current "English", locale: "en"
+        = link_to_unless_current "Spanish", locale: "es"
+        = link_to_unless_current "Canadian", locale: "eh"
+
     .container
       .masthead
         %h3.text-muted
-          = t ".title"
+          Test
         %nav
           %ul.nav.nav-justified
             %li.active
@@ -49,29 +53,42 @@
                 = t ".tabtitle6"
           / Jumbotron
       .jumbotron
-        %h1 Marketing stuff!
-        %p.lead Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.
+        %h1
+          = t ".marketing.title"  # can add a descriptor, here, to identify the section -> ie "marketing", here
+        %p.lead
+          = t ".marketing.text"  # Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.
         %p
-          %a.btn.btn-lg.btn-success{:href => "#", :role => "button"} Get started today
-      / Example row of columns
+          %a.btn.btn-lg.btn-success{:href => "#", :role => "button"}
+            = t ".marketing.button"  # Get started today
       .row
         .col-lg-4
-          %h2 Safari bug warning!
-          %p.text-danger As of v8.0, Safari exhibits a bug in which resizing your browser horizontally causes rendering errors in the justified nav that are cleared upon refreshing.
-          %p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+          %h2
+            = t ".safari.title"  # Safari bug warning!
+          %p.text-danger
+            = t ".safari.danger_text" # As of v8.0, Safari exhibits a bug in which resizing your browser horizontally causes rendering errors in the justified nav that are cleared upon refreshing.
           %p
-            %a.btn.btn-primary{:href => "#", :role => "button"} View details &raquo;
+            = t ".safari.text"  # Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+          %p
+            %a.btn.btn-primary{:href => "#", :role => "button"}
+              = t ".button"  # View details &raquo;
         .col-lg-4
-          %h2 Heading
-          %p Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+          %h2 
+            = t ".heading2.title"  # Heading Two
           %p
-            %a.btn.btn-primary{:href => "#", :role => "button"} View details &raquo;
+            = t "heading2.text"  # Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+          %p
+            %a.btn.btn-primary{:href => "#", :role => "button"}
+              = t ".button"  # View details &raquo;
         .col-lg-4
-          %h2 Heading
-          %p Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
+          %h2 
+            = t ".heading3.title"  # Heading Three
           %p
-            %a.btn.btn-primary{:href => "#", :role => "button"} View details &raquo;
+            = t ".heading3.text"  # Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.
+          %p
+            %a.btn.btn-primary{:href => "#", :role => "button"} 
+              = t ".button"  #View details &raquo;
           / Site footer
       %footer.footer
-        %p &copy; Company 2014
+        %p
+          = t ".copyright"  # &copy; Company 2014
     %script{:src => "../../assets/js/ie10-viewport-bug-workaround.js"}
