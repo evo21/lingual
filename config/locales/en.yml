@@ -25,7 +25,7 @@ en:
 
       heading2:
         title: "Heading Two"
-        text: "This is the English translation of the text elements that would go under heading two.  Normally a good spot for Lorum Ipsum, but that isn't the best to illustrate our case, here."
+        text: "This is the English translation of the text elements that would go under heading two.  Normally a good spot for Lorum Ipsum, but that isn't the best to illustrate our case, here.  It is a good illustration of how we will have to go back and edit some translations, like 'English', above."
 
       heading3:
         title: "Heading Three"

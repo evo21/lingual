@@ -11,3 +11,25 @@ eh:
       tabtitle4: "Downloaded Doo-dads"
       tabtitle5: "Aboot"
       tabtitle6: "Contact"
+
+      button: "Don't ya know"
+
+      marketing:
+        title: "Marketing Kerfuffles!"
+        text: "This is an example of words that are pasted into the app from the english dictionary: moose crackers, lovely maple furniture, Winter vacation paradise, long slap-shot from the blue line!"
+        button: "Get started today"
+
+      safari:
+        title: "That darn Safari!"
+        danger_text: "As of v8.0, Safari exhibits a bug in which resizing your browser horizontally causes rendering errors in the justified nav that are cleared upon refreshing."
+        text: "Another example of english words from a random website: Digital library books require an active Wi-Fi connection for wireless delivery to a Kindle device. Library books will not be delivered via your Kindle's 3G connection."
+
+      heading2:
+        title: "Heading Two"
+        text: "This is the CANADIAN translation of the text elements that would go under heading two.  Normally a good spot for Lorum Ipsum, eh, but that isn't the best to illustrate our case, here, eh.  It is a good illustration of how we will have to go back and edit some translations, like 'Canadian', above."
+
+      heading3:
+        title: "Heading Three"
+        text: "Not too different from the example above, eh -- this is just another example of Canadian test.  We will have to go back and do some translation with native speakers to rid the site of any colloquial expressions that may be a tad on the difficult side to present (like this sentence, eh)."
+
+      copyright: "Company 2014"

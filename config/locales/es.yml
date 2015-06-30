@@ -10,3 +10,25 @@ es:
       tabtitle4: "Descargas"
       tabtitle5: "Acerca de"
       tabtitle6: "Contacto"
+
+      button: "View details"
+
+      marketing:
+        title: "Material de marketing!"
+        text: "Este es un ejemplo de las palabras que se pegan en la aplicación del diccionario Inglés : galletas de animalitos , muebles de madera preciosa , vacaciones tropicales, etc."
+        button: "Empiece hoy mismo"
+
+      safari:
+        title: "Advertencia bug Safari!"
+        danger_text: "A partir de v8.0 , Safari muestra un error en el que el cambio de tamaño su navegador horizontal provoca errores de renderizado en el navegador via justifica que se eliminan..."
+        text: "Otro ejemplo de palabras en inglés de una página web rando : libros de la biblioteca digital requiere una conexión Wi -Fi activo para entrega inalámbrica con un dispositivo Kindle. Libros de la biblioteca no se entregarán a través de la conexión 3G del Kindle."
+
+      heading2:
+        title: "Heding Dos"
+        text: "esta es la traducción en Inglés de los elementos de texto que irían en la partida dos. Normalmente, un buen lugar para Lorum Ipsum , pero que no es la mejor para ilustrar nuestro caso , aquí . Es un buen ejemplo de cómo vamos a tener que volver atrás y editar algunas traducciones , como ' Inglés ' , arriba."
+
+      heading3:
+        title: "Heding Tres"
+        text: "No muy diferente del ejemplo anterior - esto es sólo otro ejemplo de la prueba de Inglés . Tendremos que volver atrás y hacer un poco de traducción con hablantes nativos para librar el lugar de cualquier expresiones coloquiales que pueden ser un poco en el lado difícil presentar (como esta frase ) ."
+
+      copyright: "Ejemplo 2014"
